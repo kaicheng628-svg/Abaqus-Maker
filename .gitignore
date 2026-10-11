@@ -1,0 +1,23 @@
+# Python / editor caches
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Keep project-specific simulations outside the distributed skill.
+output/
+runs/
+*.odb
+*.cae
+*.sim
+*.lck
+*.res
+*.stt
+*.prt
+*.msg
+*.sta
+*.dat
+*.com
+*.log
+abaqus.rpy*
+abaqus.jnl
