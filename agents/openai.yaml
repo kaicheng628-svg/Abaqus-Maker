@@ -1,0 +1,4 @@
+interface:
+  display_name: "Abaqus Maker"
+  short_description: "可复用的 Abaqus 建模、求解验证、原生曲线与动画交付工作流"
+  default_prompt: "请使用 $abaqus-maker，根据当前项目完成 Abaqus 有限元建模、仿真验证和结果交付。"
