@@ -1,0 +1,37 @@
+{
+  "template_note": "通用任务记录模板，不是可执行的 Abaqus 输入文件；null 表示待确定。",
+  "task_name": null,
+  "objective": null,
+  "input_files": [],
+  "working_directory": null,
+  "unit_system": null,
+  "geometry_parameters": {},
+  "materials": [],
+  "connections_and_contact": [],
+  "boundary_conditions": [],
+  "loading_protocol": [],
+  "analysis_procedure": null,
+  "mesh_plan": null,
+  "requested_checks": [],
+  "stability_validation": {
+    "enabled": false,
+    "target_states": [],
+    "release_definition": null,
+    "disturbance_direction": null,
+    "escape_criterion": null,
+    "force_resolution": null,
+    "loading_and_hold_time_basis": null
+  },
+  "deliverables": {
+    "editable_model": true,
+    "input_and_result_files": true,
+    "native_abaqus_curves": true,
+    "curve_variables_and_regions": [],
+    "video": false,
+    "video_stages": [],
+    "video_view": "固定视角，方向按模型和本次请求确定",
+    "summary": true
+  },
+  "acceptance_criteria": [],
+  "assumptions_and_missing_inputs": []
+}
